@@ -1,0 +1,52 @@
+langchain  # core framwork for building rag pipeline
+langchain-core
+langchain-community
+
+# LLM Providers
+
+langchain-openai  #connect open ai model
+langchain-mistralai  # connect mistral model
+openai
+mistralai
+
+# Vector Database
+
+chromadb  # vector databaseto store embedding
+
+# Embedding Models
+
+sentence-transformers # local embedding model
+
+# Document Loaders dependencies
+
+pypdf  #load pdf document
+unstructured  # advance document parsing
+beautifulsoup4 # html document parsing
+lxml
+
+# Text Processing
+
+tiktoken  # tokencount for open ai
+
+# Environment Variables
+
+python-dotenv # load dotenv api key
+
+# Data Handling
+
+pandas
+numpy
+
+# API / App Layer (optional but common in RAG apps)
+
+fastapi  # build api for my rg system
+uvicorn
+
+# UI (optional)
+
+streamlit #quick ui for chatboat
+
+# Utilities
+
+tqdm
+requests
